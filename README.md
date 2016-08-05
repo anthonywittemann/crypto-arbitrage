@@ -1,12 +1,12 @@
 # crypto-arbitrage
-detects arbitrage between, USD, BTC, and ETH and executes trades accordingly on the Coinbase Exchange
+detects arbitrage between, USD, BTC, and ETH and executes trades accordingly on the GDAX Exchange
 
 ## Run Instructions
 Clone repo onto local machine
-Follow instructions from Installation, Documentation, and API Key + Secret sections on https://github.com/coinbase/coinbase-python
+Follow instructions from Installation, Documentation, and API Key + Secret sections on https://github.com/danpaquin/coinbase-gdax-python
 Run $ python find_arbitrage_and_execute.py
-Enter your Coinbase API Key and Secret when prompted
-Check the terminal output and your coinbase wallets to watch the bot do its work
+Enter your GDAX API Key, Secret and Passphrase when prompted
+Check the terminal output and your Coinbase wallets to watch the bot do its work
 
 ## WARNING
 __This is a real trading bot. Don't enter API keys if you don't know what you are doing.__
